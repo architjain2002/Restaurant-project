@@ -1,0 +1,64 @@
+body {
+  background-image: url("website_background_page.jpg");
+  background-size: cover;
+}
+
+.header {
+  margin: auto;
+  text-align: center;
+  font-family: Lucida Handwriting;
+  font-size: 70px;
+  background-color: rgb(241 226 164);
+  border-style: outset;
+  border-color: burlywood;
+  position: sticky;
+  top: 0;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  margin: 0;
+  padding: 9px;
+  overflow: hidden;
+  background-color: rgb(241 226 164);
+  list-style-type: none;
+  position: sticky;
+  top: 90px;
+}
+.navbar_list {
+  float: left;
+}
+
+.navbar_list a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 13px 100px;
+  text-decoration: none;
+  font-size: 29px;
+  font-family: Lucida Handwriting;
+}
+li a:hover {
+  background-color: rgb(194, 199, 42);
+}
+.about {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  font-family: Lucida Handwriting;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.about_discription {
+  margin: auto;
+  text-align: center;
+  font-family: Lucida Handwriting;
+  width: 57%;
+  font-size: 40px;
+  background-color: #f1e2a4;
+  box-shadow: inset 0px 0px 20px 3px #ae9f9f;
+}

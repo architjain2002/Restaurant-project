@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts page</title>
+    <script src="Contacts.js"></script>
+    <link rel="stylesheet" href="Contacts.css">
+</head>
+<body>
+    <div class="header"><a href="/home">Là Fleur</a></div>
+    <ul class="navbar">
+        <li class="navbar_list"><a href="/home">Home</a></li>
+        <li class="navbar_list"><a href="/Cuisines">Cuisines</a></li>
+        <li class="navbar_list"><a href="/Special">What's Special</a></li>
+        <li class="navbar_list"><a href="/Contacts">Contacts</a></li>
+    </ul>
+    <div id="contact_description">Want to dine at Là Fleur?<br> You can get more information
+         about our options by contacting us on</div>
+    <div id="contact_phonenumber">9999-999-999 or <br> 1234-567-890</div>
+    <div id="feedback_description">Already visited us?<br> It would be great if we could recieve a feedback from you..
+    </div>
+    <form id="feedback_form">
+        <p>Name:</p>
+        <input type="text" id="contact_form_name" name="name"><br>
+        <p>Email address:</p>
+        <input type="email" id="contact_form_email" name="email">
+        <p>Feedback you would like to give us:</p>
+        <textarea id="contact_form_feedbacktext"></textarea><br>
+        <input type="button" onclick="onsubmition()" value="Submit" id="btn">
+        <div id="responce"></div>
+    </form>
+    <div id="contact_description">Looking foward to serve you :) </div>
+</body>
+</html>
+
