@@ -22,9 +22,9 @@ app.get('/Contacts',(req,res)=>{
     res.render("Contacts");
 })
 
-const hostname='127.0.0.1';
+//const hostname='127.0.0.1';
 const port='80';
 
-app.listen(port,hostname,()=>{
-    console.log(`Server running at http://${hostname}:${port}/home`);
+app.listen(port,()=>{
+    console.log(`Server running at http://localhost:${port}/home`);
 })
